@@ -1,12 +1,33 @@
 //MODULE ASSIGNMENT 2 - LEVEL 1
 
+
+
+
 1. What is a function literal?
 
-A function literal ia another way of expressing a function. However, these are normally used when referring to anonymous functions or unnamed functions.
+
+
+A function literal is another way of expressing a function. However, these are normally used when referring to anonymous functions or unnamed functions.
+
+
+
 
 2. What is the constructor?
 
+
+
+ The constructor is what is used in a when creating new objects in the class. These helps you build new objects that can be created through the class.
+
+
+
 3. What does the return statement do?
+
+   
+
+ Return statement stops the function and returns a value to the called function.
+
+
+
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -16,4 +37,21 @@ A function literal ia another way of expressing a function. However, these are n
 		myFunction();
 
 
+
+             "inside my function"
+
+
+
+
 5. Briefly describe scope in JavaScript.
+
+
+The scope of a variable refers to how accessible the variable is depending on the position of its declaration.
+
+There are two main types of scope: 
+
+zGlobal scope and local scope.
+
+If a variable is declared INSIDE a function, then it is only available within that function and is deleted once the function has run it's course, this is known as a local scope.
+
+however, if a variable is declared OUTSIDE of a function, then it is accessible and can be used throughout the document and program.
