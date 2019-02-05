@@ -38,7 +38,7 @@ Strawberries are a popular part of spring and summer diets throughout America. M
 
 function fix(){
     var str1 = document.getElementById("change").innerHTML;
-    var rep1 = str1.replace(/strawberries/gi, " bananas ");
+    var rep1 = str1.replace(/strawberries/gi, " bananas ").replace(/strawberry/gi,"banana");
     document.getElementById("change").innerHTML = rep1;
     }
 fix();
